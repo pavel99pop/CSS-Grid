@@ -6,3 +6,8 @@
 .wrapper div:nth-child(odd) {
   background-color: #ddd;
 }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
